@@ -1,3 +1,7 @@
+.logo{
+    width: 10vh;
+}
+
 .text-travel {
     color: red !important;
 }
@@ -7,10 +11,25 @@
     object-fit: cover;
 }
 
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
 #footer {
     background-color: white;
 }
 
-.logo{
-    width: 10vh;
-}
