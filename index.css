@@ -29,6 +29,19 @@
     height: 100%;
 }
 
+.content-pizza{
+    background-color:   #68727bc9;
+    color: white;
+}
+
+.content-pizza h2{
+    font-weight: 500;
+}
+
+.content-pizza p{
+    font-size:  20px;
+}
+
 #footer {
     background-color: white;
 }
