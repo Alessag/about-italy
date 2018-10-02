@@ -1,5 +1,5 @@
 .logo{
-    width: 10vh;
+    width: 8vh;
 }
 
 .text-travel {
@@ -30,7 +30,7 @@
 }
 
 .content-pizza{
-    background-color:   #68727bc9;
+    background-color: black;
     color: white;
 }
 
@@ -42,10 +42,27 @@
     font-size:  15px;
 }
 
+#history-container h5{
+    font-weight: 200;
+}
+
+#history-container .italy-maps img{
+    width: 75%;
+    height: 100%;
+}
+
 #tips-container{
     padding: 3rem 0 3rem 0;
 }
 
+#Gastronomy h4{
+    font-weight: 100;
+}
+
+#Gastronomy .food-images img:hover{
+    opacity: 0.5;
+    transform: scale(1.1,1.1);
+}
 #Gastronomy .food-images img{
     height: 95%;
     width: 80%;
@@ -53,8 +70,9 @@
 
 #footer {
     background-color: black;
+    color: white;
 }
 
-#footer a{
-    color: white;
+#footer h5{
+    font-weight: 100;
 }
