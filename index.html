@@ -253,57 +253,77 @@
                     </div>
                 </div> -->
         </section>
-    <!-- /Food-->
+    <!-- /Food -->
 
     <!-- Tips -->
-    <div class="container" id="tips-container">
-        <div class="row">
-            <div class="col-12 text-center text-uppercase pb-3">
-                <h2>Why Italy?</h2>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="row justify-content-center">
-                    <div class="col-sm-3 col-md-3">
-                        <img src="assets/images/airplane.png" alt="">
-                    </div>
-                    <div class="col-sm-9 col-md-9">
-                        <p> Italy has been one of the most popular travel destinations for tourists from the world over. Culture, beauty, food, history, this small European country has it all and the reasons to visit Italy are endless.</p>
+        <div class="container" id="tips-container">
+            <div class="row">
+                <div class="col-12 text-center text-uppercase pb-3">
+                    <h2>Why Italy?</h2>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 col-md-3">
+                            <img src="assets/images/airplane.png" alt="">
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                            <p> Italy has been one of the most popular travel destinations for tourists from the world over. Culture, beauty, food, history, this small European country has it all and the reasons to visit Italy are endless.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="row">
-                    <div class="col-sm-3 col-md-3">
-                        <img src="assets/images/dish.png" alt="">
-                    </div>
-                    <div class="col-sm-9 col-md-9">
-                        <p>Italian food is definitely one of the reasons to visit Italy. Here too, region after region you will discover new flavours, recipes, ingredients, cheese, like Pecorino or Fossa cheese, bread, sauces and much more.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="row">
-                    <div class="col-sm-3 col-md-3">
-                        <img src="assets/images/world.png" alt="">
-                    </div>
-                    <div class="col-sm-9 col-md-9">
-                        <p>You need to visit Italy at least once in your life just because it’s a must-see destination. Not to brag about it, but with so much art, history and beauty, Italy has been a favourite destination for years.</p>
+                <div class="col-sm-12 col-md-6">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                            <img src="assets/images/dish.png" alt="">
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                            <p>Italian food is definitely one of the reasons to visit Italy. Here too, region after region you will discover new flavours, recipes, ingredients, cheese, like Pecorino or Fossa cheese, bread, sauces and much more.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="row">
-                    <div class="col-sm-3 col-md-3">
-                        <img src="assets/images/camera.png" alt="">
+                <div class="col-sm-12 col-md-6">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                            <img src="assets/images/world.png" alt="">
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                            <p>You need to visit Italy at least once in your life just because it’s a must-see destination. Not to brag about it, but with so much art, history and beauty, Italy has been a favourite destination for years.</p>
+                        </div>
                     </div>
-                    <div class="col-sm- col-md-9">
-                        <p>La Dolce Vita It's no surprise that La Dolce Vita is an Italian phrase. After all, it's an Italian idea! Italians claim to have mastered the art of living by perfecting an ideal mixture of food, family, and famous good humor.</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                            <img src="assets/images/camera.png" alt="">
+                        </div>
+                        <div class="col-sm- col-md-9">
+                            <p>La Dolce Vita It's no surprise that La Dolce Vita is an Italian phrase. After all, it's an Italian idea! Italians claim to have mastered the art of living by perfecting an ideal mixture of food, family, and famous good humor.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <!-- /Tips -->
+
+    <!-- Map -->
+        <div class="container text-center" id="map">
+            <div class="row">
+                <div class="col-12 text-uppercase text-center mb-3">
+                    <h2>Italy Map</h2>
+                </div>
+                <div class="col">
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6147752.494795523!2d8.224239120750081!3d41.20363016919674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fe82448dd203%3A0xe22cf55c24635e6f!2sItalia!5e0!3m2!1ses-419!2sve!4v1538510841396" 
+                        width="800" 
+                        height="600" 
+                        frameborder="0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+               
+        </div>
+    <!-- /Map -->
 
     <!-- Footer -->
         <footer id="footer" class="pb-4 pt-4">
@@ -326,6 +346,26 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            function initMap() {
+
+                var location = new google.maps.LatLng(50.0875726, 14.4189987);
+
+                var mapCanvas = document.getElementById('map');
+                var mapOptions = {
+                    center: location,
+                    zoom: 16,
+                    panControl: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+
+            }
+
+            google.maps.event.addDomListener(window, 'load', initMap);
+            });
+    </script>
 </body>
 
 </html>
