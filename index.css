@@ -83,6 +83,11 @@
     padding-right: 0;
 }
 
+/*#map iframe{
+    width: 800px; 
+    height: 600px; 
+}*/
+
 #footer {
     background-color: black;
     color: white;
@@ -92,9 +97,14 @@
     font-weight: 100;
 }
 
+/*#footer a img{
+    width: 50%;
+}*/
+
 /* Media Querys  */
 
 @media only screen and (max-width: 320px){
+
     #Gastronomy .wine-photo img{
         width: 280px;
     }
@@ -109,6 +119,21 @@
 
     #tips-container {
         font-size: 12px;
+    }
+
+    #map iframe{
+        width: 280px; 
+        height: 370px; 
+    }
+
+    #footer a img{
+        width: 38%;
+    }
+
+    #footer h5{
+        text-align: center;
+        padding-bottom: 2px;
+        padding-top: 2px;
     }
 }
 
@@ -127,6 +152,11 @@
 
     #tips-container {
         font-size: 12px;
+    }
+
+    #map iframe{
+        width: 400px; 
+        height: 490px; 
     }
 
     #footer h5{
@@ -156,6 +186,11 @@
         font-size: 1.1rem;
     }
 
+    #map iframe{
+        width: 480px; 
+        height: 520px; 
+    }
+
     #footer h5{
         font-size: 100%;
     }
@@ -181,6 +216,11 @@
 
     #tips-container {
         font-size: 1.1rem;
+    }
+
+    #map iframe{
+        width: 490px; 
+        height: 520px; 
     }
 
     #footer h5{
@@ -213,12 +253,17 @@
     #travel-container h5{
         font-size: 1rem;
     } */
+
+    #map iframe{
+        width: 650px; 
+        height: 581px; 
+    }
 }
 
 
 @media only screen and (max-width: 1200px){
     #Gastronomy .wine-photo img{
-        width: 435px;
+        width: 286px;
     }
 
     #Gastronomy .food-images img{
