@@ -78,6 +78,11 @@
     font-weight: 100;
 }
 
+#travel-container .travel-images div{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 #footer {
     background-color: black;
     color: white;
