@@ -52,7 +52,8 @@
 }
 
 #tips-container{
-    padding: 3rem 0 3rem 0;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
 }
 
 #Gastronomy h4{
@@ -68,6 +69,10 @@
     width: 80%;
 }
 
+#travel-container{
+    background-color: hotpink;
+}
+
 #footer {
     background-color: black;
     color: white;
@@ -75,4 +80,139 @@
 
 #footer h5{
     font-weight: 100;
+}
+
+/* Media Querys  */
+
+@media only screen and (max-width: 320px){
+    #Gastronomy .wine-photo img{
+        width: 280px;
+    }
+
+    #Gastronomy h4{
+        font-size: 100%;
+    }
+
+    #tips-container img{
+        width: 81%;
+    }
+
+    #tips-container {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #Gastronomy .wine-photo img{
+        width: 350px;
+    }
+
+    #Gastronomy h4{
+        font-size: 1.2rem;
+    }
+
+    #tips-container img{
+        width: 50%;
+    }
+
+    #tips-container {
+        font-size: 12px;
+    }
+
+    #footer h5{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #Gastronomy .wine-photo img{
+        width: 435px;
+    }
+
+    #Gastronomy .food-images img{
+        height: 95%;
+        width: 60%;
+    }
+
+    #Gastronomy h4{
+        font-size: 1.2rem;
+    }
+
+    #tips-container img{
+        width: 50%;
+    }
+
+    #tips-container {
+        font-size: 1.1rem;
+    }
+
+    #footer h5{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #Gastronomy .wine-photo img{
+        width: 350px;
+    }
+
+    #Gastronomy .food-images img{
+        height: 95%;
+        width: 60%;
+    }
+
+    #Gastronomy h4{
+        font-size: 1.1rem;
+    }
+
+    #tips-container img{
+        width: 100%;
+    }
+
+    #tips-container {
+        font-size: 1.1rem;
+    }
+
+    #footer h5{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    #Gastronomy .wine-photo img{
+        width: 450px;
+    }
+
+    #Gastronomy .food-images img{
+        height: 95%;
+        width: 86%;
+    }
+
+    #tips-container img{
+        width: 70%;
+    }
+
+    #tips-container {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+    #Gastronomy .wine-photo img{
+        width: 435px;
+    }
+
+    #Gastronomy .food-images img{
+        height: 95%;
+        width: 100%;
+    }
+
+    #tips-container img{
+        width: 50%;
+    }
+
+    #tips-container {
+        font-size: 1.1rem;
+    }
 }
