@@ -70,7 +70,12 @@
 }
 
 #travel-container{
-    background-color: hotpink;
+    background-color: #75646d;
+    color: white;
+}
+
+#travel-container h5{
+    font-weight: 100;
 }
 
 #footer {
@@ -195,6 +200,14 @@
     #tips-container {
         font-size: 1.1rem;
     }
+
+    /* #travel-container .travel-text{
+        padding-right: 0;
+    }
+
+    #travel-container h5{
+        font-size: 1rem;
+    } */
 }
 
 
