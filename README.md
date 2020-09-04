@@ -6,4 +6,4 @@ HTML5, CSS3 and Bootstrap4.
 
 
 ## Demo
-View project demo at [About Italy](https://alessag.github.io/italy/)
+View project demo at [About Italy](https://alessag.github.io/about-italy/)
